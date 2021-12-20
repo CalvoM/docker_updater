@@ -6,8 +6,8 @@ description: |
       Updates the docker images downloaded in the system and you also can specify
       specific images to update. Furthermore, you also can prune the dangling images
 
-grade: devel # must be 'stable' to release into candidate/stable channels
-confinement: devmode # use 'strict' once you have the right plugs and slots
+grade: stable # must be 'stable' to release into candidate/stable channels
+confinement: classic # use 'strict' once you have the right plugs and slots
 
 apps:
   diu:
