@@ -1,0 +1,6 @@
+#! /usr/bin/python3
+from docker_image_updater import DockerImageUpdater
+
+if __name__ == "__main__":
+    diu = DockerImageUpdater("diu")
+    diu.run()
